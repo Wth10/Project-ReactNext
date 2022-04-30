@@ -2,6 +2,7 @@
 	"name": "3301",
 	"version": "1.0.0",
 	"private": true,
+	"homepage": "https://project-react-next.vercel.app",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
