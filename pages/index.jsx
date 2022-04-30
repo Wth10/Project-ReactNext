@@ -1,10 +1,23 @@
+import Link from 'next/link';
+
 export default function Home() {
 	return (
-		<div>
-			<h1>Welcome</h1>
-			<p>
-				Pagina <a href="/teste">2</a>
-			</p>
-		</div>
+		<ul>
+			<li>
+				<Link href="/">
+					<a>Home</a>
+				</Link>
+			</li>
+			<li>
+				<Link href="/teste">
+					<a>About Us</a>
+				</Link>
+			</li>
+			<li>
+				<Link href="/blog/hello-world">
+					<a>Blog Post</a>
+				</Link>
+			</li>
+		</ul>
 	);
 }
