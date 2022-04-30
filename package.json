@@ -1,0 +1,19 @@
+{
+  "name": "next-react",
+  "version": "1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Wth - Weuberth",
+    "url": "https://github.com/Wth10"
+  },
+  "license": "APACHE",
+  "dependencies": {
+    "next": "^12.1.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
