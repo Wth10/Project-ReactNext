@@ -4,6 +4,6 @@
 
 OBS: Project without definition.
 
-Start in React Next for installation
+Start by installing React Next for installation `npx create-next-app namefile`
 
-1 - `npx create-next-app namefile`
+installation completed and with structure pranta, to start the server `npm run dev`
