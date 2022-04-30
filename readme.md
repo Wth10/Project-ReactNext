@@ -2,7 +2,9 @@
 
 ---
 
-- OBS: Project without definition.
+> OBS: Project without definition.
+
+---
 
 Studying react next if you want to install react next on your machine i recommend using the steps below.
 
