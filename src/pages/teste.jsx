@@ -3,7 +3,7 @@ export default function Home() {
 		<div>
 			<h1>Welcome</h1>
 			<p>
-				Pagina <a href="/teste">2</a>
+				Pagina <a href="/">teste</a>
 			</p>
 		</div>
 	);
