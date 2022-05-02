@@ -1,17 +1,21 @@
 import Link from 'next/link';
+import Script from 'next/script';
 
 export default function About() {
 	return (
-		<div>
+		<main>
 			<header>
 				<title>Next-About</title>
-				<script src="https://cdn.tailwindcss.com"></script>
+				<Script src="https://cdn.tailwindcss.com" strategy="beforeInteractive" />
+				<meta charset="UTF-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			</header>
-
-			<h1>Welcome About</h1>
-			<Link href="/">
-				<a>Voltar Página</a>
-			</Link>
-		</div>
+			<div>
+				<h1>Welcome About</h1>
+				<Link href="/">
+					<a>Voltar Página</a>
+				</Link>
+			</div>
+		</main>
 	);
 }
