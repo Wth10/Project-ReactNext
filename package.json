@@ -17,5 +17,18 @@
 	"devDependencies": {
 		"eslint": "8.14.0",
 		"eslint-config-next": "12.1.5"
-	}
+	},
+	"description": "---",
+	"main": "next.config.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Wth10/Project-ReactNext.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Wth10/Project-ReactNext/issues"
+	},
+	"homepage": "https://github.com/Wth10/Project-ReactNext#readme"
 }
