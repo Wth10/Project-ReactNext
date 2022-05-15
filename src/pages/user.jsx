@@ -32,7 +32,7 @@ export default function User() {
 					</button>
 				</div>
 
-				<div className="mt-6 ">
+				<div className="mt-6">
 					<input
 						className="mr-4 text-black"
 						type="number"
