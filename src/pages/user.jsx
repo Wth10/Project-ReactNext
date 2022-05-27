@@ -11,7 +11,7 @@ export default function User() {
 		const host = window.location.host;
 		const protocol = window.location.protocol;
 
-		const resp = await fetch(`${protocol}://${host}/api/user/${main}`);
+		const resp = await fetch(`${protocol}//${host}/api/user/${main}`);
 		const dice = await resp.json();
 		setuser(dice);
 	}
