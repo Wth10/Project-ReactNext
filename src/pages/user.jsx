@@ -8,10 +8,10 @@ export default function User() {
 	const [user, setuser] = useState({});
 
 	async function GetCustomer() {
-		console.log(url_atual);
-		const url_atual = window.location.host;
+		const host = window.location.host;
+		const protocol = window.location.protocol;
 
-		const resp = await fetch(`http://${url_atual}/api/user/${main}`);
+		const resp = await fetch(`${protocol}://${host}/api/user/${main}`);
 		const dice = await resp.json();
 		setuser(dice);
 	}
