@@ -1,5 +1,3 @@
-import style from '../styles/login.module.css';
-
 export default function Login() {
 	return (
 		<div class="bg-blue-400 h-full w-full p-20 px-20 flex flex-col items-center justify-center">
@@ -28,7 +26,7 @@ export default function Login() {
 						Criar conta.
 					</a>
 				</p>
-				<form method="post" action="/home">
+				<form method="post" action="">
 					<div class="mt-6 w-full">
 						<label id="email" class="text-sm font-medium leading-none text-gray-800">
 							Email
@@ -56,10 +54,12 @@ export default function Login() {
 						</div>
 					</div>
 					<div class="mt-8">
-						<input
-							type="submit"
-							class="focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 text-sm font-semibold leading-none text-white focus:outline-none bg-indigo-700 border rounded hover:bg-indigo-600 py-4 w-full"
-						/>
+						<a href="/home">
+							<input
+								type="submit"
+								class="focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 text-sm font-semibold leading-none text-white focus:outline-none bg-indigo-700 border rounded hover:bg-indigo-600 py-4 w-full"
+							/>
+						</a>
 					</div>
 				</form>
 			</div>
