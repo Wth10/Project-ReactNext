@@ -8,7 +8,10 @@ export default function User() {
 	const [user, setuser] = useState({});
 
 	async function GetCustomer() {
-		const resp = await fetch(`http://localhost:3000/api/user/${main}`);
+		console.log(url_atual);
+		const url_atual = window.location.host;
+
+		const resp = await fetch(`http://${url_atual}/api/user/${main}`);
 		const dice = await resp.json();
 		setuser(dice);
 	}
@@ -28,7 +31,7 @@ export default function User() {
 						type="button"
 						className="button mt-6 w-full sm:w-auto py-2 px-3 bg-indigo-600 hover:bg-indigo-700 disabled:bg-indigo-300 dark:disabled:bg-indigo-800 text-white dark:disabled:text-indigo-400 text-sm font-semibold rounded-md shadow focus:outline-none cursor-pointer"
 					>
-						<Browser name="Voltar" destiny="/" />
+						<Browser name="Voltar" destiny="/home" />
 					</button>
 				</div>
 
