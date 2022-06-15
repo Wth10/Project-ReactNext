@@ -1,0 +1,13 @@
+{
+	"editor.tabSize": 4,
+	"prettier.bracketSpacing": false,
+	"workbench.colorCustomizations": {
+		"editor.selectionBackground": "#47778046"
+	},
+	"editor.fontFamily": "Consolas",
+	"editor.fontSize": 14,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	}
+}

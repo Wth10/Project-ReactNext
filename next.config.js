@@ -1,7 +1,6 @@
-/** @type {import('next').NextConfig} **/
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-	reactStrictMode: true,
-	nextScriptWorkers: true,
-};
+  reactStrictMode: true,
+}
 
-export default nextConfig;
+module.exports = nextConfig
